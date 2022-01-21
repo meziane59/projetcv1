@@ -1,0 +1,69 @@
+#tableGenerale
+{
+    width:95%;
+    margin: 0 auto;
+    border-color: lightgrey;
+    border-style: solid ;
+    column-span: all;
+    
+}
+#colonneGauche
+{
+    width: 10%;
+    vertical-align: top;    
+    background-color:lightgrey ;
+    border-color: lightgrey;
+    border-style: solid ;
+}
+
+#tableHaut
+{
+    margin: 0 auto;
+    border-style: hidden;
+}
+#tableInterne
+{
+    margin: 0 auto;
+    border-color: lightgrey;
+    border-style: solid ;
+    width: 80%;
+    
+}
+#paragraphe
+{
+    background-color: lightgrey ;
+    width: 80%;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+
+#tdTitre
+{
+   height: 10pt;
+   background-color: lightgrey;
+}
+#tdDetail
+{
+    width: 20%; 
+    vertical-align:text-top; 
+    background-color: lightgrey;
+}
+#td2Colonnes
+{
+    width: 50%;
+    text-align: center; 
+    background-color: lightgrey;
+}
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+}
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+}
